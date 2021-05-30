@@ -8,6 +8,8 @@ async function getMultiple(page = 1){
     "SELECT id,productName, productDescription, productCategory, productPrice, productImage, productVideo, productRating FROM products LIMIT ?,?", 
     [offset, config.listPerPage]
   );
+  
+  
   const data = helper.emptyOrRows(rows);
   const meta = {page};
 
@@ -16,7 +18,22 @@ async function getMultiple(page = 1){
     meta
   }
 }
+async function getProductById(id, product){
+  console.log(id);
+  const rows = await db.query(
+    `SELECT id, productName, productDescription, productCategory, productPrice, productImage, productVideo, productRating FROM products WHERE id= ?`, 
+    [
+       id
+    ]
+  );
+  console.log(rows);
+
+  const data = helper.emptyOrRows(rows);
+
+  return {data};
+}
 
 module.exports = {
-  getMultiple
+  getMultiple,
+  getProductById
 }

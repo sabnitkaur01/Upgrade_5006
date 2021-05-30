@@ -8,7 +8,7 @@ const productsRouter = require('./routes/products');
 const handtoolsRouter = require('./routes/handtools');
 const outdoortoolsRouter = require('./routes/outdoor');
 const geartoolsRouter = require('./routes/gear');
-const productByIdRouter = require('./routes/productId');
+
 const signUpRouter = require('./routes/signUp');
 
 app.use(cors())
@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/products', productsRouter);
-app.use('/products/:id', productByIdRouter);
+
 app.use('/handtools', handtoolsRouter);
 app.use('/outdoor', outdoortoolsRouter);
 app.use('/gear', geartoolsRouter);
