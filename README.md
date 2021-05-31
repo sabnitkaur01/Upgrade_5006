@@ -21,6 +21,17 @@
 *  - Local:   http://localhost:8080/ 
 *  - Network: http://10.0.0.234:8080/
 
+
+## Result:
+* To start Run (npm install) on both sides
+* On front-end run (npm run serve)
+* On back-end run (index.js)
+
+## How to Connect DB
+
+* To link the database, Create database vuewalt on phpmyadmin and Import vuewalt.sql 
+
+
 ## Softwares:
 * Github
 * MySql
@@ -34,15 +45,6 @@
 * Express
 * Vue
 * AJAX
-
-## How to Connect DB
-
-* To link the database, Create database vuewalt on phpmyadmin and Import vuewalt.sql 
-
-## Result:
-* To start Run (npm install) on both sides
-* On front-end run (npm run serve)
-* On back-end run (index.js)
 
 ## Icons:
     [www.icon8.com/](https://icons8.com/)
