@@ -1,7 +1,5 @@
 # Upgrade_5006
 
-![Upgrade](/images/readme.jpeg)
-
 ## Table of content:
 * Explaination
 * Software
