@@ -25,7 +25,7 @@
 ## Result:
 * To start Run (npm install) on both sides
 * On front-end run (npm run serve)
-* On back-end run (index.js)
+* On back-end run (node index.js)
 
 ## How to Connect DB
 
