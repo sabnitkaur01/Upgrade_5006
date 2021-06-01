@@ -61,8 +61,7 @@ Icon from [www.semantic-ui.com](https://semantic-ui.com/)
 #### Sabnit Kaur
 
 ### License
-Copyright (c) 2020 Fanshawe
-College All Rights Reserved.
+MIT
 
 
 
